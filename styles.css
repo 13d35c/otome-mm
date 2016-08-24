@@ -1,0 +1,156 @@
+/* Stylesheet by @wyh4l84. */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	padding:0;
+	margin:0;
+/*	background: #00a3d9;
+	color: #00a3d9;*/
+	background: #eee;
+	color: #79796a;
+	font: 12px 'segoe ui', sans-serif ;
+	text-align: justify;
+	
+}
+.content {
+	background: #fff;
+	box-shadow: 0 0 1em 0.3em #99e6ffa;
+width: 550px;
+padding: 1em 2em;
+margin: 0 auto;
+line-height: 1.7em;
+}
+h1, h2, h3 {
+	border-bottom: 1px solid #999;
+	margin-top: 50px;
+}
+h4, h5, h6 {
+	margin: 20px 0 0;
+	padding-left: 5px;
+}
+h4:before {
+	content:"📩";
+	font-size: 15px;
+	margin-right: 10px;
+}
+ul {
+	margin: 30px 0;
+	padding: 0;
+	list-style-type:none;
+}
+ul ul {
+	padding-left: 20px;
+}
+li {
+	margin: 10px 0;
+}
+/*ul li:before {
+	content: "❈  ";
+}*/
+
+table {
+width: 100%;
+font-size: inherit;
+}
+tr:even {
+background: rgba(0,0,0,0.5);
+}
+th {
+width: 30%;
+background: #79796a;
+color: #fff;
+text-align: center;
+}
+th:first-child {
+width: 7%;
+}
+tr td:first-child {
+text-align: center;
+}
+td {
+}
+tr:hover td {
+	background: #f0f0e1;
+}
+
+
+ul.mm-text {
+	padding:0;
+	margin: 0 30px;
+}
+.mm-chat-answer-null {
+	border-radius: 1em 1em 1em 0;
+	padding: 0.3em 0.8em;
+	background: #ffffff;
+	border: 1px solid #eee;
+}
+.mm-character {
+	width: 25% !important;
+}
+.mm-kyara {
+	border-radius: 2px;
+	padding: 1px 3px;
+	margin-right: 1px;
+}
+.mm-chat {
+	border-radius: 1em 1em 1em 0;
+	padding: 0.3em 0.8em;
+}
+.mm-chat-sub:before {
+	content: "└┄ ";
+	margin-left: 20px;
+	color: #999;
+}
+.mm-chat-sub-2 {
+	margin-left: 40px;
+}
+.mm-Zen {
+	background: #dfdfd0;
+	color: #79796a;
+}
+.mm-Jaehee {
+	background: #ffdc73;
+	color: #d96c00;
+}
+.mm-Yoosung {
+	background: #96ff73;
+	color: #008c00;
+}
+
+.mm-707 {
+	background: #ffbfbf;
+	color: #d93600;
+}
+.mm-Jumin {
+	background: #efbfff;
+	color: #a300d9;
+}
+.mm-V {
+	background: #bfefff;
+	color: #008c8c;
+}
+
+table.legend th, table.legend td {
+	padding: 5px 10px;
+}
+
+.note {
+	color: #ff9673;
+	font-size: 0.8em;
+	border: 1px dashed #ffdfbf;
+	padding: 2px 5px;
+}
+.email {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.8em;
+}
+.email:before {
+	content: "{";
+}
+.email:after {
+	content: "}";
+}
